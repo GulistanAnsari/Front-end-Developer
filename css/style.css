@@ -145,12 +145,24 @@ a{
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.button{
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: rgb(135,80,247);
+    background: linear-gradient(90deg, rgba(135,80,247,1) 46%, rgba(42,20,84,1) 100%);
+    color: #fff;
+}
 /* header */
 header{
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 999;
+}
+.bg-white{
+    background: #fff;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
 }
 .sticky{
     position: fixed;
@@ -290,7 +302,7 @@ header{
     border-radius: 15px;
     overflow: hidden;
     transition: 1s;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* .work-item::before{
     position: absolute;
@@ -456,6 +468,22 @@ footer{
 #back-to-top:hover {
     background-color: #8750f7;
 }
+
+
+/* .inner-banner */
+.inner-banner{
+    background: #f1f1f1;
+    background: linear-gradient(270deg, rgba(135,80,247) 0%, rgba(255,255,255) 100%);
+    padding:170px 0 60px 0;
+}
+.inner-banner h1{
+    font-size: 56px;
+    color: #8750f7;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+}
+/* inner-banner end */
 
 @media only screen and (max-width: 991px) {
     .hire-me-btn{
